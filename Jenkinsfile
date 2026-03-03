@@ -12,8 +12,7 @@ pipeline {
 
     stage('Run Python Script') {
       steps {
-        sh 'python3 --version'      // optional (check Python)
-        sh 'python3 script.py'      // run python file
+        sh 'python3 script.py'
       }
     }
 
